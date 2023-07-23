@@ -1,0 +1,54 @@
+1.Vs Studio Code -> Text Editor
+2.Git Bash -> Git bash is a tool for command
+3.GitHub -> is an online platform or mantain by microsoft oraganizatin
+--------------------------------------------------------
+
+Collaborate
+To Maintain Github Account
+
+Main branch should always be locked.
+
+
+---------------------------------------------------------
+GitHub Terms :- 
+	Commit = Checkpoint for repository 
+	Push = It sends from local to repository
+	Branch = Different branches to maintain main branch
+	PR(pull request) = for merging to main branch. Send PR to tech lead or Manager. -> After push then only will send PR
+	Merge = Merging into main branch 
+	Pull = It pulls updated code from main branch
+	Repository = All codes are maintainted are called repository or Folder
+
+---------------------------------------------------------------
+Readme.md
+	Setup, Functionality,Screen Shots.
+
+--------------------------------------------------------------
+git --version
+git
+git config --list
+git config --global user.name="Vikas Yadav"
+git config --global user.email="yadavikas088@gmail.com"
+git clone https://github.com/yadavikas004/pride-github-git.git -> if asks for authroization then authorize it by clicking url and given code enter it code will be there in pop-up
+git add index.html -> only this file will be add in stage 
+git add . -> This will add all files
+git commit -m "development:(add index.html file)"
+git log
+git remote add origin https://github.com/yadavikas004/pride-github-git.git
+git push origin master
+git branch
+git checkout -b feature-branch
+git branch
+git status
+git push
+git push --set-upstream origin feature-branch
+git pull origin master
+
+git stash is not prefered it overloads on memory so not preferable
+git config --global --unset -credential.helper  ->linuxhunt.com
+
+devfolio hackathons
+--------------------------------------------------------------
+#Directory
+cd -> Change Directory
+mkdir -> Make Direcory (While working with directory make sure there are no spaces).
