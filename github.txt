@@ -52,3 +52,6 @@ devfolio hackathons
 #Directory
 cd -> Change Directory
 mkdir -> Make Direcory (While working with directory make sure there are no spaces).
+
+-----------------------------------------------------------------
+Pushing the code
